@@ -1,9 +1,8 @@
-* {
-    
-}
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
 body {
     background-color: hsl(212, 45%, 89%);
+    font-family: "Outfit", sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,10 +12,14 @@ body {
 
 .container {
     text-align: center;
-    padding: 30px 30px 120px 30px;
+    padding: 25px 25px 90px 25px;
     background-color: hsl(0, 0%, 100%);
     border-radius: 25px;
     box-shadow: 5px 5px 200px -80px hsl(220, 15%, 55%);
+}
+
+.content {
+    width: 400px;
 }
 
 h2 {
@@ -28,4 +31,10 @@ p {
     color: hsl(220, 15%, 55%);
     font-weight: 400;
     font-size: 15px;
+}
+
+img {
+    width: 400px;
+    height: auto;
+    border-radius: 15px;
 }
