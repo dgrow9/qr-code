@@ -1,41 +1,85 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
-body {
-    background-color: hsl(212, 45%, 89%);
-    font-family: "Outfit", sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    min-height: 100vh;
+@media (min-width: 1400px) {
+    body {
+        background-color: hsl(212, 45%, 89%);
+        font-family: "Outfit", sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        min-height: 100vh;
+    }
+
+    .container {
+        text-align: center;
+        padding: 25px 25px 90px 25px;
+        background-color: hsl(0, 0%, 100%);
+        border-radius: 25px;
+        box-shadow: 5px 5px 200px -80px hsl(220, 15%, 55%);
+    }
+
+    .content {
+        width: 400px;
+    }
+
+    h2 {
+        color: hsl(218, 44%, 22%);
+        font-weight: 700;
+        font-size: 27px;
+    }
+
+    p {
+        color: hsl(220, 15%, 55%);
+        font-weight: 400;
+        font-size: 17px;
+    }
+
+    img {
+        width: 400px;
+        height: auto;
+        border-radius: 15px;
+    }
 }
 
-.container {
-    text-align: center;
-    padding: 25px 25px 90px 25px;
-    background-color: hsl(0, 0%, 100%);
-    border-radius: 25px;
-    box-shadow: 5px 5px 200px -80px hsl(220, 15%, 55%);
-}
+@media (min-width: 375px) {
+    body {
+        background-color: hsl(212, 45%, 89%);
+        font-family: "Outfit", sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        min-height: 100vh;
+    }
 
-.content {
-    width: 400px;
-}
+    .container {
+        text-align: center;
+        padding: 25px 25px 90px 25px;
+        background-color: hsl(0, 0%, 100%);
+        border-radius: 25px;
+        box-shadow: 5px 5px 200px -80px hsl(220, 15%, 55%);
+    }
 
-h2 {
-    color: hsl(218, 44%, 22%);
-    font-weight: 700;
-    font-size: 27px;
-}
+    .content {
+        width: 400px;
+    }
 
-p {
-    color: hsl(220, 15%, 55%);
-    font-weight: 400;
-    font-size: 17px;
-}
+    h2 {
+        color: hsl(218, 44%, 22%);
+        font-weight: 700;
+        font-size: 27px;
+    }
 
-img {
-    width: 400px;
-    height: auto;
-    border-radius: 15px;
+    p {
+        color: hsl(220, 15%, 55%);
+        font-weight: 400;
+        font-size: 17px;
+    }
+
+    img {
+        width: 400px;
+        height: auto;
+        border-radius: 15px;
+    }   
 }
